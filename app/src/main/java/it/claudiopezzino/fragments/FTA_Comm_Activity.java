@@ -7,7 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class Activity_FTA_comm extends AppCompatActivity implements Fragment_FTA_2.Fragment2Listener, Fragment_FTA_1.Fragment1Listener {
+public class FTA_Comm_Activity extends AppCompatActivity implements FTA_Fragment2.Fragment2Listener, FTA_Fragment1.Fragment1Listener {
 
 
     @Override
@@ -17,8 +17,8 @@ public class Activity_FTA_comm extends AppCompatActivity implements Fragment_FTA
 
 
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().add(R.id.fragment_1, new Fragment_FTA_1()).commit();
-            getSupportFragmentManager().beginTransaction().add(R.id.fragment_2, new Fragment_FTA_2()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_1, new FTA_Fragment1()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_2, new FTA_Fragment2()).commit();
         }
     }
 

@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-public class Activity_VM_comm extends AppCompatActivity implements View.OnClickListener {
+public class VM_Comm_Activity extends AppCompatActivity implements View.OnClickListener {
 
     private MyViewModel vmodel;
     private TextView tv_msg;
@@ -33,8 +33,8 @@ public class Activity_VM_comm extends AppCompatActivity implements View.OnClickL
         btn_sendToF2.setOnClickListener(this);
 
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().add(R.id.fragment_1, new Fragment_VM_1()).commit();
-            getSupportFragmentManager().beginTransaction().add(R.id.fragment_2, new Fragment_VM_2()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_1, new VMFragment1()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_2, new VMFragment2()).commit();
         }
 
         vmodel = new ViewModelProvider(this).get(MyViewModel.class);

@@ -55,7 +55,7 @@ public class Fragment_B extends Fragment implements View.OnClickListener, EditTe
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_frag_comm_2, container, false);
+        View v = inflater.inflate(R.layout.fragment_b, container, false);
 
         btn_send_message_b = v.findViewById(R.id.btn_send_message_b);
         etMessageB = v.findViewById(R.id.etMessageB);

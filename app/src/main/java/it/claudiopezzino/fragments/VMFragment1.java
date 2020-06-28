@@ -14,7 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-public class Fragment_VM_1 extends Fragment implements View.OnClickListener {
+public class VMFragment1 extends Fragment implements View.OnClickListener {
     private MyViewModel vmodel;
     private TextView tv_message;
     private EditText et_msg;

@@ -11,7 +11,7 @@ public class FragmentsActivity extends AppCompatActivity implements Fragment_A.F
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_frag_comm);
+        setContentView(R.layout.fragments_activity);
 
         /* If the FrameLayout with id container is present, it means that we are in SINGLE PANEL
           * therefore it is necessary to add the fragment with the transaction */

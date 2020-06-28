@@ -55,7 +55,7 @@ public class Fragment_A extends Fragment implements View.OnClickListener, TextVi
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
-        View v = inflater.inflate(R.layout.fragment_frag_comm_1, container, false);
+        View v = inflater.inflate(R.layout.fragment_a, container, false);
 
         btn_send_message = v.findViewById(R.id.btn_send_message);
         etMessage = v.findViewById(R.id.etMessage);

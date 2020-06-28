@@ -12,12 +12,12 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        tools:layout="@layout/fragment_frag_comm_1" />
+        tools:layout="@layout/fragment_a" />
     <fragment android:name= "it.claudiopezzino.fragments.Fragment_B"
         android:id="@+id/fragment_b"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        tools:layout="@layout/fragment_frag_comm_2" />
+        tools:layout="@layout/fragment_b" />
 
 </LinearLayout>
