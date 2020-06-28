@@ -12,40 +12,21 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-//import android.widget.TextView;
-
 public class FTA_Fragment2 extends Fragment implements View.OnClickListener{
 
-  private MyViewModel vmodel;
-     private Fragment2Listener activityCallback;
-    TextView tv_text;
-
+    private Fragment2Listener activityCallback;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-//        vmodel = new ViewModelProvider(requireActivity()).get(MyViewModel.class);
 
         View view = inflater.inflate(R.layout.fragment_fta_2, container, false);
-        tv_text = view.findViewById(R.id.rv_title2);
         Button btn_1 = view.findViewById(R.id.btn_1);
         Button btn_2 = view.findViewById(R.id.btn_2);
         btn_1.setOnClickListener(this);
         btn_2.setOnClickListener(this);
         return view;
     }
-
-//    @Override
-//    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-//        super.onActivityCreated(savedInstanceState);
-//        vmodel = new ViewModelProvider(requireActivity()).get(MyViewModel.class);
-//        vmodel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-//            @Override
-//            public void onChanged(String s) {
-//                tv_text.setText(s);
-//            }
-//        });
-//    }
 
     @Override
      public void onAttach(@NonNull Context context){

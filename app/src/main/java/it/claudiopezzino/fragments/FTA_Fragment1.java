@@ -16,19 +16,15 @@ import androidx.fragment.app.Fragment;
 
 public class FTA_Fragment1 extends Fragment implements View.OnClickListener{
 
-//  private MyViewModel vmodel;
      private Fragment1Listener activityCallback;
-     private TextView tv_text;
 
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_fta_1, container, false);
-        tv_text =  view.findViewById(R.id.tv_text);
         Button btn_1 =  view.findViewById(R.id.btn_1);
         Button btn_2 =  view.findViewById(R.id.btn_2);
-
         btn_1.setOnClickListener(this);
         btn_2.setOnClickListener(this);
         return view;
@@ -44,18 +40,6 @@ public class FTA_Fragment1 extends Fragment implements View.OnClickListener{
             throw new ClassCastException(context.toString() + "Must implement Fragment1Listener interface");
         }
     }
-
-//    @Override
-//    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-//        super.onActivityCreated(savedInstanceState);
-//        vmodel = new ViewModelProvider(requireActivity()).get(MyViewModel.class);
-//        vmodel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-//            @Override
-//            public void onChanged(String s) {
-//                tv_text.setText(s);
-//            }
-//        });
-//    }
 
     @Override
     public void onDetach(){
