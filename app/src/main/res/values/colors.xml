@@ -13,4 +13,5 @@
     <color name="mainActivityButtons">#58AF5C</color>
     <color name="launcherColor">#19c742</color>
     <color name="fragment_background">#0DA121</color>
+    <color name="fragment_a_background">#D6890E</color>
 </resources>
