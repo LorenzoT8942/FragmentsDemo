@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="btn_single_fragment">ACTIVITY COMMUNICATION</string>
+    <string name="btn_multiple_fragment">MULTIPLE FRAGMENTS</string>
+    <string name="btn_send_message">SEND MESSAGE TO B</string>
+    <string name="btn_goto_fragment_a">GO TO FRAGMENT A</string>
+    <string name="btn_goto_fragment_b">GO TO FRAGMENT B</string>
+    <string name="tv_received_messages">FRAGMENT A</string>
+    <string name="tv_received_messages_b">FRAGMENT B</string>
+    <string name="btn_send_message_b">SEND MESSAGE TO A</string>
+    <string name="btn_1">Button 1</string>
+    <string name="btn_2">Button 2</string>
+    <string name="fragment_title1">This is Fragment 1</string>
+    <string name="fragment_title2">This is Fragment 2</string>
+    <string name="fragment_to_activity_communication">Fragment to Activity communication</string>
+    <string name="view_model_communication">View Model Communication</string>
+    <string name="this_is_the_activity">This is the Activity</string>
+    <string name="insert_message_here">Insert message here</string>
+    <string name="send_to_fragment1">Send to Fragment1</string>
+    <string name="send_to_activity">send to activity</string>
+    <string name="send_to_fragment_2">send to fragment 2</string>
+    <string name="viewmodel_communication">ViewModel communication</string>
+    <string name="btn_swipeactivity">SWIPE DEMO</string>
+    <string name="txt_first_fragment">First fragment</string>
+    <string name="txt_second_fragment">Second fragment</string>
+    <string name="txt_third_fragment">Third fragment</string>
+    <string name="txt_fourth_fragment">Fourth fragment</string>
+    <string name="txt_fifth_fragment">Fifth fragment</string>
+    <string name="txt_sixth_fragment">Sixth fragment</string>
+    <string name="loading_title">FRAGMENTS DEMO</string>
+    <string name="loading_credits">BY TYCOONS</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#58AF5C</color>
+    <color name="colorPrimaryDark">#676668</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="firstColor">#D50000</color>
+    <color name="secondColor">#FF6D00</color>
+    <color name="thirdColor">#FFAB00</color>
+    <color name="fourthColor">#FFE53B</color>
+    <color name="fifthColor">#64DD17</color>
+    <color name="sixthColor">#38813B</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="mainActivityButtons">#58AF5C</color>
+    <color name="launcherColor">#19c742</color>
+    <color name="fragment_background">#0DA121</color>
+</resources>

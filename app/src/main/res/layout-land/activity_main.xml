@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1_land"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_activity_communication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mainActivityButtons"
+        android:text="@string/btn_single_fragment"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/btnTxtSize"
+        app:layout_constraintBottom_toTopOf="@+id/btn_multiple_fragments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_vm" />
+
+    <Button
+        android:id="@+id/btn_vm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mainActivityButtons"
+        android:text="@string/view_model_communication"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/btnTxtSize"
+        app:layout_constraintBottom_toTopOf="@+id/btn_activity_communication"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_swipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mainActivityButtons"
+        android:text="@string/btn_swipeactivity"
+        android:textSize="@dimen/btnTxtSize"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_multiple_fragments" />
+
+    <Button
+        android:id="@+id/btn_multiple_fragments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mainActivityButtons"
+        android:text="@string/btn_multiple_fragment"
+        android:textSize="@dimen/btnTxtSize"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toTopOf="@+id/btn_swipe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_activity_communication" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

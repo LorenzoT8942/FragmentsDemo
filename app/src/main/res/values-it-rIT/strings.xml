@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="btn_single_fragment">COMUNICAZIONE CON ACTIVITY</string>
+    <string name="btn_multiple_fragment">FRAMMENTI MULTIPLI</string>
+    <string name="btn_send_message">INVIA MESSAGGIO A B</string>
+    <string name="btn_goto_fragment_a">VAI AL FRAMMENTO A</string>
+    <string name="btn_goto_fragment_b">VAI AL FRAMMENTO B</string>
+    <string name="tv_received_messages">FRAMMENTO A</string>
+    <string name="tv_received_messages_b">FRAMMENTO B</string>
+    <string name="btn_send_message_b">INVIA MESSAGGIO AD A</string>
+    <string name="btn_1">Button 1</string>
+    <string name="btn_2">Button 2</string>
+    <string name="fragment_title1">Questo è il Fragment 1</string>
+    <string name="fragment_title2">Questo è il Fragment 2</string>
+    <string name="fragment_to_activity_communication">Comunicazione tra Fragments e Activity</string>
+    <string name="view_model_communication">View Model Communication</string>
+    <string name="this_is_the_activity">Questa è l\'Activity</string>
+    <string name="insert_message_here">Inserire messaggio</string>
+    <string name="send_to_fragment1">Invia a fragment 1</string>
+    <string name="send_to_activity">invia All\' activity</string>
+    <string name="send_to_fragment_2">invia a fragment 2</string>
+    <string name="viewmodel_communication">ViewModel communication</string>
+    <string name="btn_swipeactivity">DEMO SWIPE</string>
+    <string name="txt_first_fragment">Primo frammento</string>
+    <string name="txt_second_fragment">Secondo frammento</string>
+    <string name="txt_third_fragment">Terzo frammento</string>
+    <string name="txt_fourth_fragment">Quarto frammento</string>
+    <string name="txt_fifth_fragment">Quinto frammento</string>
+    <string name="txt_sixth_fragment">Sesto frammento</string>
+    <string name="loading_title">FRAGMENTS DEMO</string>
+    <string name="loading_credits">BY TYCOONS</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <fragment android:name= "it.claudiopezzino.fragments.Fragment_A"
+        android:id="@+id/fragment_a"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_frag_comm_1" />
+    <fragment android:name= "it.claudiopezzino.fragments.Fragment_B"
+        android:id="@+id/fragment_b"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_frag_comm_2" />
+
+</LinearLayout>
