@@ -24,26 +24,22 @@ public class FTA_Comm_Activity extends AppCompatActivity implements FTA_Fragment
 
     @Override
     public void onFragment1Button1Clicked() {
-        Log.d("F1B1", "Button 1 of Fragment 1 clicked");
         Toast.makeText(getApplicationContext(), "Button 1 of Fragment 1 clicked", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onFragment1Button2Clicked() {
-        Log.d("F1B2", "Button 2 of Fragment 1 clicked");
         Toast.makeText(getApplicationContext(), "Button 2 of Fragment 1 clicked", Toast.LENGTH_SHORT).show();
     }
 
 
     @Override
     public void onFragment2Button1Click() {
-        Log.d("F2B1", "Button 1 of Fragment 2 clicked");
         Toast.makeText(getApplicationContext(), "Button 1 of Fragment 2 clicked", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onFragment2Button2Click() {
-        Log.d("F2B2", "Button 2 of Fragment 2 clicked");
         Toast.makeText(getApplicationContext(), "Button 2 of Fragment 2 clicked", Toast.LENGTH_SHORT).show();
     }
 }
