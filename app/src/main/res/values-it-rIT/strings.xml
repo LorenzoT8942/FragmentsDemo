@@ -20,7 +20,7 @@
     <string name="send_to_fragment1">Invia a fragment 1</string>
     <string name="send_to_activity">invia All\' activity</string>
     <string name="send_to_fragment_2">invia a fragment 2</string>
-    <string name="viewmodel_communication">ViewModel communication</string>
+    <string name="viewmodel_communication">COMUNICAZIONE CON VIEWMODEL</string>
     <string name="btn_swipeactivity">DEMO SWIPE</string>
     <string name="txt_first_fragment">Primo frammento</string>
     <string name="txt_second_fragment">Secondo frammento</string>
@@ -30,5 +30,6 @@
     <string name="txt_sixth_fragment">Sesto frammento</string>
     <string name="loading_title">FRAGMENTS DEMO</string>
     <string name="loading_credits">BY TYCOONS</string>
+    <string name="todo">TODO</string>
 
 </resources>

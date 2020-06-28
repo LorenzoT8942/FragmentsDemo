@@ -20,7 +20,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_vm" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_vm"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btn_vm"
@@ -34,7 +35,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btn_swipe"
@@ -48,7 +50,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_multiple_fragments" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_multiple_fragments"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btn_multiple_fragments"
@@ -62,6 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_activity_communication" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_activity_communication"
+        android:textStyle="bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

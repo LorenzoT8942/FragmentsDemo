@@ -2,6 +2,7 @@
 <resources>
     <dimen name="tvPadding">16dp</dimen>
     <dimen name="txtSize">25sp</dimen>
-    <dimen name="btnTxtSize">14sp</dimen>
+    <dimen name="btnTxtSize">18sp</dimen>
     <dimen name="titles_txtSize">20sp</dimen>
+    <dimen name="button_lenght">300sp</dimen>
 </resources>
