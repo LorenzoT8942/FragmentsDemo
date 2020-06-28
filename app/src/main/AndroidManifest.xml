@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity">
+        <activity android:name=".ActivityHome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,8 +20,8 @@
         <activity android:name=".FragmentsActivity"/>
         <activity android:name=".Fragment_A"/>
         <activity android:name=".Fragment_B"/>
-        <activity android:name=".FragmentToActivity"/>
-        <activity android:name=".VM_Activity"/>
+        <activity android:name=".Activity_FTA_comm"/>
+        <activity android:name=".Activity_VM_comm"/>
         <activity android:name=".Swipe_Activity"/>
     </application>
 

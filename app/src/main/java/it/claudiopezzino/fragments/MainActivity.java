@@ -47,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
             }
 
             if (v.getId() == R.id.btn_activity_communication){
-                Intent intent = new Intent(MainActivity.this, FragmentToActivity.class);
+                Intent intent = new Intent(MainActivity.this, Activity_FTA_comm.class);
                 startActivity(intent);
             }
 
             if(v.getId() == R.id.btn_vm){
-                Intent intent = new Intent(MainActivity.this, VM_Activity.class);
+                Intent intent = new Intent(MainActivity.this, Activity_VM_comm.class);
                 startActivity(intent);
             }
 

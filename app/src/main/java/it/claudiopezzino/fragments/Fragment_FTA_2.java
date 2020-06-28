@@ -14,7 +14,7 @@ import androidx.fragment.app.Fragment;
 
 //import android.widget.TextView;
 
-public class FTA_Fragment2 extends Fragment implements View.OnClickListener{
+public class Fragment_FTA_2 extends Fragment implements View.OnClickListener{
 
   private MyViewModel vmodel;
      private Fragment2Listener activityCallback;
@@ -26,7 +26,7 @@ public class FTA_Fragment2 extends Fragment implements View.OnClickListener{
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 //        vmodel = new ViewModelProvider(requireActivity()).get(MyViewModel.class);
 
-        View view = inflater.inflate(R.layout.fragment_fta_comm_2, container, false);
+        View view = inflater.inflate(R.layout.fragment_fta_2, container, false);
         tv_text = view.findViewById(R.id.rv_title2);
         Button btn_1 = view.findViewById(R.id.btn_1);
         Button btn_2 = view.findViewById(R.id.btn_2);

@@ -14,7 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-public class VM_fragment2 extends Fragment implements View.OnClickListener {
+public class Fragment_VM_2 extends Fragment implements View.OnClickListener {
     private MyViewModel vmodel;
     private TextView tv_message;
     private EditText et_message;
@@ -23,7 +23,7 @@ public class VM_fragment2 extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_vm_comm_2, container, false);
+        View view = inflater.inflate(R.layout.fragment_vm_2, container, false);
         tv_message =  view.findViewById(R.id.tv_message);
         et_message = view.findViewById(R.id.et_message);
         Button btn_SendToF1 =  view.findViewById(R.id.btn_F2SendToF1);
